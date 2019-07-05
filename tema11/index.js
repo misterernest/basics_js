@@ -1,8 +1,8 @@
 // condicionales
 
 var persona = {
-  nombre: 'Ernesto',
-  apellido: 'Campos',
+  nombre: "Ernesto",
+  apellido: "Campos",
   edad: 37,
   ingeniero: true,
   cocinero: false,
@@ -10,7 +10,7 @@ var persona = {
   dj: false,
   guitarrista: false,
   drone: true
-}
+};
 // funcion que implementa el uso de condicionales
 function imprimirProfesiones(persona) {
   console.log(`${persona.nombre} es:`);
@@ -18,18 +18,16 @@ function imprimirProfesiones(persona) {
     console.log(`Ingenerio`);
   } else {
     console.log(`No es ingeniero`);
-    
   }
   if (persona.cocinero === true) {
     console.log(`Cocienro`);
-  }else {
+  } else {
     console.log(`No es cocinero`);
-    
   }
   if (persona.cantante === true) {
     console.log(`Cantante`);
   } else {
-    console.log(`No es cantante`); 
+    console.log(`No es cantante`);
   }
   if (persona.dj === true) {
     console.log(`DJ`);
@@ -38,25 +36,22 @@ function imprimirProfesiones(persona) {
     console.log(`Guitarrista`);
   } else {
     console.log(`No es guitarrista`);
-    
   }
   if (persona.drone === true) {
     console.log(`Vuela Drones`);
   } else {
     console.log(`No vuela Drones`);
-    
   }
 }
+// funcion que imprime si es mayor de edad
+// no retorna nada
 function imprimirSiEsMayorDeEdad(persona) {
   if (persona.edad >= 18) {
     console.log(`Es mayor de edad`);
-    
   } else {
     console.log(`No es mayor de edad`);
-    
   }
 }
 
 console.log(imprimirProfesiones(persona));
 console.log(imprimirSiEsMayorDeEdad(persona));
-
