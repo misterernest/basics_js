@@ -1,4 +1,4 @@
-// ciclos
+// ciclos for
 var persona = {
   nombre: "Ernesto",
   apellido: "Campos",
